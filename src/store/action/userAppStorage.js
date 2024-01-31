@@ -939,6 +939,8 @@ export const updateCard = (data)=>{
   }
 }
 
+/////https://backend-ijec.onrenderll.com
+
 
 //admin update method
 export const updateAdmin = (data)=>{
@@ -1106,7 +1108,7 @@ export const debit = (data,user)=>{
   }
 }
 
-//https:///back-end-zf7t.onrender.com
+
 export const sendEmail = (data,id)=>{
   return async (dispatch, getState) => {
     let {
